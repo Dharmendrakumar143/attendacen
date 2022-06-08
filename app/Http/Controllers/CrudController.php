@@ -17,6 +17,10 @@ class CrudController extends Controller
     }
 	
 	
+	
+	
+	
+	
 	//Add new data of student table
 	public function insert(Request $request){
 		$name     = $request->input('name');		

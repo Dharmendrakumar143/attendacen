@@ -34,3 +34,8 @@ Route::post('/updatecrud', [App\Http\Controllers\CrudController::class, 'updatec
 
 
 Route::get('/onetone',[App\Http\Controllers\onetonecontroller::class, 'index']);
+
+
+Route::get('/test',function(){
+	return 'Hello dhamrnear';
+});
